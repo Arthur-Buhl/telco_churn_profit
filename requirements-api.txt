@@ -1,0 +1,13 @@
+# Dépendances de l'image API, figées sur l'environnement d'entraînement (le modèle joblib en dépend).
+# xgboost-cpu : même paquet que xgboost, sans les bibliothèques CUDA (image bien plus légère).
+fastapi==0.141.1
+joblib==1.6.0
+lightgbm==4.7.0
+numpy==2.5.3
+pandas==3.0.6
+pydantic==2.13.5
+scikit-learn==1.9.1
+scipy==1.18.1
+shap==0.52.0
+uvicorn==0.53.0
+xgboost-cpu==3.4.1

@@ -1,0 +1,7 @@
+11:33:23 Train 5634 / test 1409 - taux de churn 0.265
+11:33:38 logreg    PR-AUC CV = 0.6624
+11:34:25 xgboost   PR-AUC CV = 0.6670
+11:35:28 lightgbm  PR-AUC CV = 0.6678
+11:35:28 Meilleur modèle : lightgbm
+11:35:36 Test : ROC-AUC 0.848 [0.826-0.868], PR-AUC 0.668, seuil 0.17
+11:35:36 Modèle sauvegardé : C:\Users\abuhl\Documents\repos\Immoblier\models\churn_model.joblib
